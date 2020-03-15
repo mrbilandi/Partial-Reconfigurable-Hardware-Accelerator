@@ -1,0 +1,4 @@
+work	"AddSubB/AddSub.vhd"
+work	"AddSubB/BShifter23.vhd"
+work	"AddSubB/BShifter23_Left.vhd"
+work	"AddSubB/encoder.vhd"

@@ -1,0 +1,28 @@
+Command line:
+   tb_fpadder_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1140
+
+Tue Jan 06 09:08:29 2015
+
+
+ Elaboration Time: 0.140401 sec
+
+ Current Memory Usage: 706.683 Meg
+
+ Total Signals          : 49
+ Total Nets             : 594
+ Total Signal Drivers   : 37
+ Total Blocks           : 7
+ Total Primitive Blocks : 5
+ Total Processes        : 32
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 1077
+
+ Total Simulation Time: 0.140401 sec
+
+ Current Memory Usage: 863.969 Meg
+
+Tue Jan 06 19:43:01 2015
+

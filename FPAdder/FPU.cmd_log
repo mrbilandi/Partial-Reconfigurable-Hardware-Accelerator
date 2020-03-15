@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/MUTProject/KC705/PartialReconfigWithout9B/FPAdder/FPU.xst" -ofn "D:/MUTProject/KC705/PartialReconfigWithout9B/FPAdder/FPU.syr" 

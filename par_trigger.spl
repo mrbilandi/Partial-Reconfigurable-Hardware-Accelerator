@@ -1,0 +1,9 @@
+[Inputs]
+trigger_clk
+=reg16[31:0]=
+[Outputs]
+dct_op
+dct_op_lev
+idct_op
+idct_op_lev
+[BiDir]

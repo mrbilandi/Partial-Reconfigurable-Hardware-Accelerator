@@ -1,0 +1,2 @@
+vhdtdtfi -lib work par_trigger.vhd -prj PCIE -o par_trigger.spl -module par_trigger -template e:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 par_trigger.spl D:/FinalMUTThesis/Final/PCIEDCTiDCT/par_trigger.sym 

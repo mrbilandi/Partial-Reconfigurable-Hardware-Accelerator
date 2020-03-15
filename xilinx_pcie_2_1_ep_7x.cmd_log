@@ -1,0 +1,481 @@
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "E:/Document&Project/Project/ISE/7Series/PCI_ISE_SAMPLE/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "D:/MUTProject/KC705/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/MUTProject/KC705/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "D:/MUTProject/KC705/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/MUTProject/KC705/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "D:/MUTProject/KC705/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/MUTProject/KC705/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "D:/MUTProject/KC705/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/MUTProject/KC705/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "D:/MUTProject/KC705/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/MUTProject/KC705/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd FPAdder -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "D:/MUTProject/KC705/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/MUTProject/KC705/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd FPAdder -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "D:/MUTProject/KC705/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/MUTProject/KC705/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "D:/MUTProject/KC705/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/MUTProject/KC705/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "D:/MUTProject/KC705/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/MUTProject/KC705/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pcie_7x_v1_11/example_design/xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k70t-fbg676-1-PCIE_X0Y0.ucf -p xc7k70t-fbg676-1 xilinx_pcie_2_1_ep_7x.ngc xilinx_pcie_2_1_ep_7x.ngd  
+map -intstyle ise -p xc7k70t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ngd xilinx_pcie_2_1_ep_7x.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pcie_2_1_ep_7x_map.ncd xilinx_pcie_2_1_ep_7x.ncd xilinx_pcie_2_1_ep_7x.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pcie_2_1_ep_7x.twx xilinx_pcie_2_1_ep_7x.ncd -o xilinx_pcie_2_1_ep_7x.twr xilinx_pcie_2_1_ep_7x.pcf 
+bitgen -intstyle ise -f xilinx_pcie_2_1_ep_7x.ut xilinx_pcie_2_1_ep_7x.ncd 
+xst -intstyle ise -ifn "D:/MUTProject/KC705/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/MUTProject/KC705/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "D:/MUTProject/KC705/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/MUTProject/KC705/DMA_Pardanic_Version/DAM_PCIe/PCIE/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "D:/MUTProject/KC705/DMA_Pardanic_Version/DAM_PCIe/PCIEDCTiDCT/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/MUTProject/KC705/DMA_Pardanic_Version/DAM_PCIe/PCIEDCTiDCT/xilinx_pcie_2_1_ep_7x.syr" 
+xst -intstyle ise -ifn "D:/MUTProject/KC705/DMA_Pardanic_Version/DAM_PCIe/PCIEDCTiDCT/xilinx_pcie_2_1_ep_7x.xst" -ofn "D:/MUTProject/KC705/DMA_Pardanic_Version/DAM_PCIe/PCIEDCTiDCT/xilinx_pcie_2_1_ep_7x.syr" 

@@ -1,0 +1,28 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o D:/MUTProject/KC705/PartialReconfigWithout9B/FPAdder/tb_fpadder_isim_beh.exe -prj D:/MUTProject/KC705/PartialReconfigWithout9B/FPAdder/tb_fpadder_beh.prj tb_fpadder 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/MUTProject/KC705/PartialReconfigWithout9B/FPAdder/AddSubB/encoder.vhd" into library work
+Parsing VHDL file "D:/MUTProject/KC705/PartialReconfigWithout9B/FPAdder/AddSubB/BShifter23_Left.vhd" into library work
+Parsing VHDL file "D:/MUTProject/KC705/PartialReconfigWithout9B/FPAdder/AddSubB/BShifter23.vhd" into library work
+Parsing VHDL file "D:/MUTProject/KC705/PartialReconfigWithout9B/FPAdder/AddSubB/AddSub.vhd" into library work
+Parsing VHDL file "D:/MUTProject/KC705/PartialReconfigWithout9B/FPAdder/tb_fpadder.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 105152 KB
+Fuse CPU Usage: 155 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture rtl of entity BShifter23_Right [bshifter23_right_default]
+Compiling architecture rtl of entity encoder [encoder_default]
+Compiling architecture rtl of entity BShifter23_Left [bshifter23_left_default]
+Compiling architecture behavioral of entity AddSub [addsub_default]
+Compiling architecture behavior of entity tb_fpadder
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 12 VHDL Units
+Built simulation executable D:/MUTProject/KC705/PartialReconfigWithout9B/FPAdder/tb_fpadder_isim_beh.exe
+Fuse Memory Usage: 121708 KB
+Fuse CPU Usage: 233 ms

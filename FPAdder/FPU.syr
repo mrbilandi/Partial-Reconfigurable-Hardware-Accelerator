@@ -1,0 +1,394 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: FPU.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "FPU.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "FPU"
+Output Format                      : NGC
+Target Device                      : xc7k70t-1-fbg676
+
+---- Source Options
+Top Module Name                    : FPU
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : NO
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "D:\MUTProject\KC705\PartialReconfigWithout9B\FPAdder\AddSubB\encoder.vhd" into library work
+Parsing entity <encoder>.
+Parsing architecture <rtl> of entity <encoder>.
+Parsing VHDL file "D:\MUTProject\KC705\PartialReconfigWithout9B\FPAdder\AddSubB\BShifter23_Left.vhd" into library work
+Parsing entity <BShifter23_Left>.
+Parsing architecture <rtl> of entity <bshifter23_left>.
+Parsing VHDL file "D:\MUTProject\KC705\PartialReconfigWithout9B\FPAdder\AddSubB\BShifter23.vhd" into library work
+Parsing entity <BShifter23_Right>.
+Parsing architecture <RTL> of entity <bshifter23_right>.
+Parsing VHDL file "D:\MUTProject\KC705\PartialReconfigWithout9B\FPAdder\AddSubB\AddSub.vhd" into library work
+Parsing entity <FPU>.
+Parsing architecture <Behavioral> of entity <fpu>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <FPU> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:871 - "D:\MUTProject\KC705\PartialReconfigWithout9B\FPAdder\AddSubB\AddSub.vhd" Line 48: Using initial value '1' for addsubb since it is never assigned
+
+Elaborating entity <BShifter23_Right> (architecture <RTL>) from library <work>.
+
+Elaborating entity <encoder> (architecture <rtl>) from library <work>.
+
+Elaborating entity <BShifter23_Left> (architecture <rtl>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <FPU>.
+    Related source file is "D:\MUTProject\KC705\PartialReconfigWithout9B\FPAdder\AddSubB\AddSub.vhd".
+    Found 8-bit adder for signal <e_l[7]_GND_4_o_add_13_OUT> created at line 1241.
+    Found 25-bit adder for signal <GND_4_o_GND_4_o_add_21_OUT> created at line 96.
+    Found 8-bit subtractor for signal <GND_4_o_GND_4_o_sub_16_OUT<7:0>> created at line 83.
+    Found 5-bit subtractor for signal <diff<4:0>> created at line 44.
+    Found 25-bit subtractor for signal <GND_4_o_GND_4_o_sub_20_OUT<24:0>> created at line 98.
+    Found 8-bit comparator greater for signal <e2[7]_e1[7]_LessThan_5_o> created at line 58
+    Found 8-bit comparator equal for signal <e2[7]_e1[7]_equal_6_o> created at line 58
+    Found 23-bit comparator greater for signal <m2[22]_m1[22]_LessThan_7_o> created at line 58
+    Found 23-bit comparator equal for signal <m2[22]_m1[22]_equal_9_o> created at line 60
+    Summary:
+	inferred   4 Adder/Subtractor(s).
+	inferred   4 Comparator(s).
+	inferred  14 Multiplexer(s).
+Unit <FPU> synthesized.
+
+Synthesizing Unit <BShifter23_Right>.
+    Related source file is "D:\MUTProject\KC705\PartialReconfigWithout9B\FPAdder\AddSubB\BShifter23.vhd".
+    Summary:
+	inferred   5 Multiplexer(s).
+Unit <BShifter23_Right> synthesized.
+
+Synthesizing Unit <encoder>.
+    Related source file is "D:\MUTProject\KC705\PartialReconfigWithout9B\FPAdder\AddSubB\encoder.vhd".
+    Summary:
+	inferred  23 Multiplexer(s).
+Unit <encoder> synthesized.
+
+Synthesizing Unit <BShifter23_Left>.
+    Related source file is "D:\MUTProject\KC705\PartialReconfigWithout9B\FPAdder\AddSubB\BShifter23_Left.vhd".
+    Summary:
+	inferred   5 Multiplexer(s).
+Unit <BShifter23_Left> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 4
+ 25-bit addsub                                         : 1
+ 5-bit subtractor                                      : 1
+ 8-bit adder                                           : 1
+ 8-bit subtractor                                      : 1
+# Comparators                                          : 4
+ 23-bit comparator equal                               : 1
+ 23-bit comparator greater                             : 1
+ 8-bit comparator equal                                : 1
+ 8-bit comparator greater                              : 1
+# Multiplexers                                         : 47
+ 1-bit 2-to-1 multiplexer                              : 1
+ 23-bit 2-to-1 multiplexer                             : 6
+ 24-bit 2-to-1 multiplexer                             : 7
+ 25-bit 2-to-1 multiplexer                             : 4
+ 5-bit 2-to-1 multiplexer                              : 24
+ 8-bit 2-to-1 multiplexer                              : 5
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 4
+ 25-bit addsub                                         : 1
+ 5-bit subtractor                                      : 1
+ 8-bit adder                                           : 1
+ 8-bit subtractor                                      : 1
+# Comparators                                          : 4
+ 23-bit comparator equal                               : 1
+ 23-bit comparator greater                             : 1
+ 8-bit comparator equal                                : 1
+ 8-bit comparator greater                              : 1
+# Multiplexers                                         : 47
+ 1-bit 2-to-1 multiplexer                              : 1
+ 23-bit 2-to-1 multiplexer                             : 6
+ 24-bit 2-to-1 multiplexer                             : 7
+ 25-bit 2-to-1 multiplexer                             : 4
+ 5-bit 2-to-1 multiplexer                              : 24
+ 8-bit 2-to-1 multiplexer                              : 5
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <FPU> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block FPU, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : FPU.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 398
+#      GND                         : 1
+#      LUT2                        : 11
+#      LUT3                        : 30
+#      LUT4                        : 38
+#      LUT5                        : 44
+#      LUT6                        : 189
+#      MUXCY                       : 50
+#      MUXF7                       : 1
+#      VCC                         : 1
+#      XORCY                       : 33
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7k70tfbg676-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                  312  out of  41000     0%  
+    Number used as Logic:               312  out of  41000     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    312
+   Number with an unused Flip Flop:     312  out of    312   100%  
+   Number with an unused LUT:             0  out of    312     0%  
+   Number of fully used LUT-FF pairs:     0  out of    312     0%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                          96
+ Number of bonded IOBs:                   0  out of    300     0%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 12.383ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 331651990 / 32
+-------------------------------------------------------------------------
+Delay:               12.383ns (Levels of Logic = 20)
+  Source:            in1<24> (PAD)
+  Destination:       o1<22> (PAD)
+
+  Data Path: in1<24> to o1<22>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LUT6:I0->O            1   0.053   0.739  e2[7]_e1[7]_equal_6_o81 (e2[7]_e1[7]_equal_6_o8)
+     LUT6:I0->O           35   0.053   0.638  e2[7]_e1[7]_equal_6_o83 (e2[7]_e1[7]_equal_6_o)
+     LUT6:I4->O           99   0.053   0.802  e1gte236 (e1gte2)
+     LUT5:I1->O           16   0.053   0.583  Msub_diff<4:0>_cy<1>1 (Msub_diff<4:0>_cy<1>)
+     LUT4:I2->O            1   0.053   0.413  Msub_diff<4:0>_cy<2>11 (Msub_diff<4:0>_cy<2>)
+     LUT6:I5->O           30   0.053   0.637  Msub_diff<4:0>_xor<4>11 (diff<4>)
+     LUT6:I4->O            1   0.053   0.739  Mmux_m_o_B15 (Mmux_m_o_B12)
+     LUT6:I0->O            1   0.053   0.485  Mmux_m_o_B16 (Mmux_m_o_rs_B<0>)
+     LUT6:I4->O            1   0.053   0.000  Mmux_m_o_rs_lut<0> (Mmux_m_o_rs_lut<0>)
+     MUXCY:S->O            1   0.291   0.000  Mmux_m_o_rs_cy<0> (Mmux_m_o_rs_cy<0>)
+     XORCY:CI->O           8   0.320   0.648  Mmux_m_o_rs_xor<1> (m_o<1>)
+     LUT3:I0->O            1   0.053   0.725  Mmux_shl_val12 (Mmux_shl_val11)
+     LUT6:I1->O            1   0.053   0.602  Mmux_shl_val13 (Mmux_shl_val12)
+     LUT6:I3->O            1   0.053   0.602  Mmux_shl_val14 (Mmux_shl_val13)
+     LUT6:I3->O            1   0.053   0.602  Mmux_shl_val15 (Mmux_shl_val14)
+     LUT6:I3->O           26   0.053   0.786  Mmux_shl_val16 (shl_val<0>)
+     LUT5:I1->O            3   0.053   0.427  shl_val<0>191 (shl_val<0>_mmx_out8)
+     LUT6:I5->O            4   0.053   0.433  shl_val<1>151 (shl_val<1>_mmx_out6)
+     LUT5:I4->O            3   0.053   0.616  shl_val<2>121 (shl_val<2>_mmx_out7)
+     LUT6:I3->O            0   0.053   0.000  shl/Mmux_s4194 (o1<22>)
+    ----------------------------------------
+    Total                     12.383ns (1.905ns logic, 10.478ns route)
+                                       (15.4% logic, 84.6% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.92 secs
+ 
+--> 
+
+Total memory usage is 238488 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

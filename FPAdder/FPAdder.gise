@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="FPAdder.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="FPU.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="FPU.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="FPU.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="FPU.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FPU.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="FPU.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="FPU.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="FPU.xst"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="FPU_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_fpadder_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_fpadder_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_fpadder_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1420562579" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1420562579">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1420564106" xil_pn:in_ck="-7695045658080820672" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1420564106">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="AddSubB/AddSub.vhd"/>
+      <outfile xil_pn:name="AddSubB/BShifter23.vhd"/>
+      <outfile xil_pn:name="AddSubB/BShifter23_Left.vhd"/>
+      <outfile xil_pn:name="AddSubB/encoder.vhd"/>
+      <outfile xil_pn:name="tb_fpadder.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1420562821" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="4950157179173467489" xil_pn:start_ts="1420562821">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1420562821" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-5621427786259474987" xil_pn:start_ts="1420562821">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1420562579" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-2105574199701586783" xil_pn:start_ts="1420562579">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1420564106" xil_pn:in_ck="-7695045658080820672" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1420564106">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="AddSubB/AddSub.vhd"/>
+      <outfile xil_pn:name="AddSubB/BShifter23.vhd"/>
+      <outfile xil_pn:name="AddSubB/BShifter23_Left.vhd"/>
+      <outfile xil_pn:name="AddSubB/encoder.vhd"/>
+      <outfile xil_pn:name="tb_fpadder.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1420564108" xil_pn:in_ck="-7695045658080820672" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-9134845167679285795" xil_pn:start_ts="1420564106">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tb_fpadder_beh.prj"/>
+      <outfile xil_pn:name="tb_fpadder_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1420564108" xil_pn:in_ck="4012741916974694330" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="1034374838625409130" xil_pn:start_ts="1420564108">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tb_fpadder_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1420564245" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1420564245">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1420564245" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-5453470281545781950" xil_pn:start_ts="1420564245">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1420564245" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="5737773979601826233" xil_pn:start_ts="1420564245">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1420564245" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1420564245">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1420564245" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="1953114535493020622" xil_pn:start_ts="1420564245">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1420564245" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-313773099461494508" xil_pn:start_ts="1420564245">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1420564245" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-3484766850895102077" xil_pn:start_ts="1420564245">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1420564254" xil_pn:in_ck="-4588733580587410171" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="1652559495461382006" xil_pn:start_ts="1420564245">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="FPU.lso"/>
+      <outfile xil_pn:name="FPU.ngc"/>
+      <outfile xil_pn:name="FPU.ngr"/>
+      <outfile xil_pn:name="FPU.prj"/>
+      <outfile xil_pn:name="FPU.stx"/>
+      <outfile xil_pn:name="FPU.syr"/>
+      <outfile xil_pn:name="FPU.xst"/>
+      <outfile xil_pn:name="FPU_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>
